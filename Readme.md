@@ -16,21 +16,12 @@ SmartBean 是一個基於 ESP32-CAM 的智慧垃圾分類系統，使用機器�
 - USB-TTL 轉換器
 
 ### 軟體需求
-- Python 3.8+
+- Python 3.10
 - PlatformIO IDE
 - Visual Studio Code
 
 ## 安裝步驟
 1. 安裝 Python 環境：
-```bash
-# 建立虛擬環境
-python -m venv venv
-
-# 啟動虛擬環境
-# Windows
-venv\Scripts\activate
-# Linux/Mac
-source venv/bin/activate
 
 # 安裝依賴套件
 pip install -r requirements.txt
@@ -75,12 +66,5 @@ SmartBean/
    - 確認模型檔案位置
    - 檢查 tensorflow 版本
 
-## 貢獻指南
-歡迎提交 Issue 和 Pull Request
 
-## 授權資訊
-MIT License
 
-## 聯絡資訊
-- 作者：[您的名字]
-- Email：[您的信箱]
